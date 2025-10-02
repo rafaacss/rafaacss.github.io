@@ -6,6 +6,6 @@ version: 0.1.5
 appVersion: "0.1.5"
 annotations:
   catalog.cattle.io/display-name: "Português Brasil"
-  catalog.cattle.io/ui-extensions-version: ">=2.10.0"
+  catalog.cattle.io/ui-extensions-version: "3"
   catalog.cattle.io/release-name: pt-br-locale
   catalog.cattle.io/namespace: cattle-ui-plugin-system

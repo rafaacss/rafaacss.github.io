@@ -4,7 +4,7 @@ metadata:
   name: pt-br-locale
   namespace: {{ .Release.Namespace }}
   annotations:
-    catalog.cattle.io/ui-extensions-version: ">=2.10.0"
+    catalog.cattle.io/ui-extensions-version: "3"
 spec:
   plugin:
     name: pt-br-locale
