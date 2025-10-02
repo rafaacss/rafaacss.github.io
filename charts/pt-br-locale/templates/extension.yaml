@@ -2,11 +2,13 @@ apiVersion: catalog.cattle.io/v1
 kind: UIPlugin
 metadata:
   name: pt-br-locale
+  namespace: {{ .Release.Namespace }}
   annotations:
     catalog.cattle.io/ui-extensions-version: ">=2.10.0"
 spec:
   plugin:
     name: pt-br-locale
-    version: 0.1.5
-    endpoint: "https://seu-endpoint/pt-br-locale-0.1.5.umd.min.js"
+    version: {{ .Chart.AppVersion }}
+    endpoint: "https://rafaacss.github.io/extensions/pt-br-locale/{{ .Chart.AppVersion }}/pt-br-locale.umd.min.js"
     noCache: false
+    noAuth: false

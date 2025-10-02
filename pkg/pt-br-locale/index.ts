@@ -1,16 +1,13 @@
-export default async function (plugin) {
-    try {
-        const url = new URL('./l10n/pt-br.json', import.meta.url);
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(`Falha ao baixar traduções: ${res.status}`);
-        const translations = await res.json();
+// Simplified plugin for Rancher translation
+export default function(plugin: any) {
+    // Plugin metadata
+    plugin.metadata = {
+        name: 'pt-br-locale',
+        version: '0.1.5'
+    };
 
-        // API de extensão: registra o locale
-        // label = nome mostrado no seletor de idioma
-        plugin.addLocalization('pt-br', translations, { label: 'Português (Brasil)' });
+    // Load translations
+    const translations = require('./l10n/pt-br.json');
 
-        console.info('[pt-br-locale] Locale registrado com sucesso.');
-    } catch (err) {
-        console.error('[pt-br-locale] Erro ao registrar locale:', err);
-    }
+    plugin.addLocale('pt-br', 'Português (Brasil)', () => Promise.resolve(translations));
 }

@@ -8,12 +8,12 @@ entries:
       catalog.cattle.io/ui-extensions-version: '>=2.10.0'
     apiVersion: v2
     appVersion: 0.1.5
-    created: "2025-10-02T14:07:42.757784029-03:00"
+    created: "2025-10-02T14:37:16.619000324-03:00"
     description: Tradução para Português Brasil do Rancher
-    digest: fcca242fd1fc4423472905ad04426cbf872adfaa90122be6294a01948a1cd856
+    digest: da39adcd53153953643d15021074cecf069b0b930ed798a8cd50f39a9c720048
     name: pt-br-locale
     type: application
     urls:
     - https://rafaacss.github.io/pt-br-locale-0.1.5.tgz
     version: 0.1.5
-generated: "2025-10-02T14:07:42.75743308-03:00"
+generated: "2025-10-02T14:37:16.618624199-03:00"
