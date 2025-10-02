@@ -9,6 +9,6 @@ entries:
     name: pt-br-locale
     type: application
     urls:
-    - https://rafaacss.github.io/rancher-locale-ptbr/pt-br-locale-0.1.0.tgz
+    - https://rafaacss.github.io/pt-br-locale-0.1.0.tgz
     version: 0.1.0
 generated: "2025-10-01T23:03:50.505634677-03:00"
