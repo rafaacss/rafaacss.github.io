@@ -1,0 +1,12 @@
+# _config.yml
+theme: jekyll-theme-minimal
+title: Locale pt-BR para Rancher
+description: Repositório Helm da extensão de idioma Português (Brasil) para o Rancher.
+lang: pt-BR
+
+# garante que os artefatos do Helm sejam servidos como arquivos estáticos
+include:
+  - index.yaml
+  - pt-br-locale-0.1.0.tgz
+  - helm-repo/index.yaml
+  - helm-repo/pt-br-locale-0.1.0.tgz
