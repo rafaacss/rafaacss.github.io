@@ -1,0 +1,8 @@
+{
+  "name": "pt-br-locale",
+  "version": "0.1.5",
+  "description": "Rancher UI Extension - Portuguese Brazil Translation",
+  "keywords": ["rancher", "plugin", "locale", "pt-br"],
+  "author": "Seu Nome",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "pt-br-locale",
+  "version": "0.1.5",
+  "description": "Tradução Português Brasil para Rancher",
+  "main": "index.ts",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name pt-br-locale index.ts"
+  },
+  "rancher": {
+    "annotations": {
+      "catalog.cattle.io/ui-extensions-version": ">=2.10.0"
+    }
+  }
+}

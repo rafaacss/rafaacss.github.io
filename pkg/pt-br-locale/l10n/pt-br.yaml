@@ -1,0 +1,186 @@
+# Conjunto ampliado de traduções pt-BR para Rancher
+generic:
+  save: Salvar
+  saving: Salvando...
+  saved: Salvo
+  cancel: Cancelar
+  close: Fechar
+  delete: Excluir
+  edit: Editar
+  update: Atualizar
+  create: Criar
+  back: Voltar
+  search: Buscar
+  refresh: Atualizar
+  confirm: Confirmar
+  continue: Continuar
+  yes: Sim
+  no: Não
+  enabled: Ativado
+  disabled: Desativado
+  description: Descrição
+  name: Nome
+  type: Tipo
+  actions: Ações
+
+nav:
+  home: Início
+  clusterManagement: Gerenciamento de Clusters
+  cluster: Cluster
+  projectsNamespaces: Projetos e Namespaces
+  apps: Aplicativos
+  workloads: Workloads
+  storage: Armazenamento
+  monitoring: Monitoramento
+  security: Segurança
+  usersAuth: Usuários & Autenticação
+  settings: Configurações
+  extensions: Extensões
+  tools: Ferramentas
+
+login:
+  title: Entrar no Rancher
+  username: Usuário
+  password: Senha
+  signIn: Entrar
+  signOut: Sair
+
+home:
+  welcome: Bem-vindo ao Rancher
+  getStarted: Começar
+
+preferences:
+  title: Preferências
+  language: Idioma
+  theme: Tema
+  dark: Escuro
+  light: Claro
+  auto: Automático
+
+table:
+  headers:
+    name: Nome
+    namespace: Namespace
+    status: Status
+    age: Idade
+    created: Criado
+    version: Versão
+    type: Tipo
+    actions: Ações
+  empty: Nenhum item encontrado
+
+cluster:
+  nodes: Nós
+  node: Nó
+  nodePools: Pools de Nós
+  events: Eventos
+  namespaces: Namespaces
+  storageClasses: Classes de Armazenamento
+  csiDrivers: Drivers CSI
+  metrics: Métricas
+  kubeconfig: Kubeconfig
+  registration: Registro
+  explore: Explorar
+
+project:
+  project: Projeto
+  projects: Projetos
+  namespace: Namespace
+  namespaces: Namespaces
+  quotas: Cotas
+  members: Membros
+
+workload:
+  workloads: Workloads
+  deployments: Deployments
+  daemonSets: DaemonSets
+  statefulSets: StatefulSets
+  cronJobs: CronJobs
+  jobs: Jobs
+  pods: Pods
+  replicaSets: ReplicaSets
+  services: Services
+  ingresses: Ingresses
+  configMaps: ConfigMaps
+  secrets: Secrets
+  hpas: Horizontal Pod Autoscalers
+  pvcs: PersistentVolumeClaims
+
+storage:
+  storage: Armazenamento
+  volumes: Volumes
+  snapshots: Snapshots
+  storageClasses: Classes de Armazenamento
+  persistentVolumes: Persistent Volumes
+  persistentVolumeClaims: Persistent Volume Claims
+
+monitoring:
+  dashboards: Dashboards
+  alerts: Alertas
+  rules: Regras
+  receivers: Destinatários
+  silences: Silêncios
+
+security:
+  rbac: RBAC
+  roles: Papéis
+  roleBindings: Associações de Papéis
+  podSecurityPolicies: Políticas de Segurança de Pod
+  podSecurityStandards: Padrões de Segurança de Pod
+
+gitops:
+  repositories: Repositórios
+  pipelines: Pipelines
+  secrets: Segredos
+  tokens: Tokens
+
+actions:
+  add: Adicionar
+  remove: Remover
+  scale: Escalar
+  redeploy: Reimplantar
+  restart: Reiniciar
+  rollback: Reverter
+  viewYaml: Ver YAML
+  editYaml: Editar YAML
+  execShell: Executar Shell
+  viewLogs: Ver Logs
+  describe: Descrever
+
+validation:
+  required: Campo obrigatório
+  invalid: Valor inválido
+  tooShort: Muito curto
+  tooLong: Muito longo
+
+messages:
+  confirmDelete: Tem certeza que deseja excluir este recurso?
+  createdSuccess: Criado com sucesso
+  updatedSuccess: Atualizado com sucesso
+  deletedSuccess: Excluído com sucesso
+  actionFailed: Ação falhou
+
+filters:
+  filter: Filtro
+  clear: Limpar
+  byNamespace: Por Namespace
+  byStatus: Por Status
+  byType: Por Tipo
+  byLabel: Por Label
+
+helm:
+  charts: Charts
+  repositories: Repositórios
+  install: Instalar
+  upgrade: Atualizar
+  uninstall: Desinstalar
+  values: Values
+
+extensions:
+  marketplace: Marketplace
+  installed: Instaladas
+  available: Disponíveis
+  install: Instalar extensão
+  uninstall: Remover extensão
+
+# Dica: qualquer chave ausente cai no fallback (inglês).
