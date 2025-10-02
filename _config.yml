@@ -7,6 +7,6 @@ lang: pt-BR
 # garante que os artefatos do Helm sejam servidos como arquivos estáticos
 include:
   - index.yaml
-  - pt-br-locale-0.1.5.tgz
+  - pt-br-locale-0.1.6.tgz
   - helm-repo/index.yaml
-  - helm-repo/pt-br-locale-0.1.5.tgz
+  - helm-repo/pt-br-locale-0.1.6.tgz

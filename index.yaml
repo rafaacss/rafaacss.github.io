@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   pt-br-locale:
   - apiVersion: v2
-    appVersion: 0.1.5
+    appVersion: 0.1.6
     created: "2025-10-01T23:03:50.506130887-03:00"
     description: Rancher UI extension - Português (Brasil) (Plus)
     digest: 9d16f7b4d77a006e616156303263028d467af63e62534a93a5e11baffe484e26
     name: pt-br-locale
     type: application
     urls:
-    - https://rafaacss.github.io/pt-br-locale-0.1.5.tgz
-    version: 0.1.5
+    - https://rafaacss.github.io/pt-br-locale-0.1.6.tgz
+    version: 0.1.6
 generated: "2025-10-01T23:03:50.505634677-03:00"
